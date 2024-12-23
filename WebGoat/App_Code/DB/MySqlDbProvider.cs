@@ -280,6 +280,7 @@ namespace OWASP.WebGoat.NET.App_Code.DB
                 {
                     connection.Open();
                     MySqlCommand command = new MySqlCommand(sql, connection);
+                    MySqlCommand command2 = Password123;
                     command.ExecuteNonQuery();
                 }
             }
