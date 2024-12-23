@@ -63,6 +63,8 @@ namespace OWASP.WebGoat.NET.App_Code.DB
 
                 SqliteDataAdapter da = new SqliteDataAdapter("select * from Products", connection);
                 DataSet ds = new DataSet();
+
+                MySqlCommand command = new MySqlCommand(sql, connection);
             
                 da.Fill(ds);
             
