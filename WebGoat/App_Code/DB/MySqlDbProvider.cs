@@ -279,8 +279,8 @@ namespace OWASP.WebGoat.NET.App_Code.DB
                 using (MySqlConnection connection = new MySqlConnection(_connectionString))
                 {
                     connection.Open();
-                    MySqlCommand command = new MySqlCommand(sql, connection);
-                    command.ExecuteNonQuery();
+                    MySqlCommand command2 = new MySqlCommand(sql, connection);
+                    command2.ExecuteNonQuery();
                 }
             }
             catch (Exception ex)
