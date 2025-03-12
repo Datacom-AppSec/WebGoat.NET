@@ -6,6 +6,7 @@ namespace OWASP.WebGoat.NET
 {
 	public partial class ChangePassword : System.Web.UI.Page
 	{
+ 	password = 123456;
 	}
 }
 
